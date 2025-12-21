@@ -32,7 +32,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="font-display text-xl font-bold gradient-text"
           >
-            &lt;Moto /&gt;
+            &lt;histonoby /&gt;
           </motion.div>
 
           {/* Social Links */}
@@ -62,7 +62,7 @@ export default function Footer() {
             transition={{ delay: 0.2 }}
             className="flex items-center gap-2 text-gray-500 text-sm font-mono"
           >
-            <span>© {currentYear} Moto.</span>
+            <span>© {currentYear} histonoby.</span>
             <span className="hidden sm:inline">Built with</span>
             <Heart size={14} className="text-cyber-pink hidden sm:inline" />
             <span className="hidden sm:inline">& Next.js</span>

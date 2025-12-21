@@ -41,7 +41,7 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            &lt;Moto /&gt;
+            &lt;histonoby /&gt;
           </motion.a>
 
           {/* Desktop Navigation */}

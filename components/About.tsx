@@ -56,7 +56,7 @@ export default function About() {
                   <div className="text-gray-300 pl-4 space-y-1">
                     <p>
                       <span className="text-cyber-purple">&quot;name&quot;</span>:{" "}
-                      <span className="text-cyber-blue">&quot;Moto&quot;</span>,
+                      <span className="text-cyber-blue">&quot;histonoby&quot;</span>,
                     </p>
                     <p>
                       <span className="text-cyber-purple">&quot;role&quot;</span>:{" "}

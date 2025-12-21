@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Moto | Portfolio",
+  title: "histonoby | Portfolio",
   description: "組み込み領域が本職のかけだしアプリ開発者。ささいな「あったらいいな」を形にします。",
-  keywords: ["Moto", "ポートフォリオ", "Webアプリ", "開発者", "組み込み"],
-  authors: [{ name: "Moto" }],
+  keywords: ["histonoby", "ポートフォリオ", "Webアプリ", "開発者", "組み込み"],
+  authors: [{ name: "histonoby" }],
   openGraph: {
-    title: "Moto | Portfolio",
+    title: "histonoby | Portfolio",
     description: "組み込み領域が本職のかけだしアプリ開発者。ささいな「あったらいいな」を形にします。",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moto | Portfolio",
+    title: "histonoby | Portfolio",
     description: "組み込み領域が本職のかけだしアプリ開発者。ささいな「あったらいいな」を形にします。",
   },
 };

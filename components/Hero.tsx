@@ -72,7 +72,7 @@ export default function Hero() {
           className="font-display text-5xl md:text-7xl lg:text-8xl font-black mb-6"
         >
           <span className="text-white">Hello, I&apos;m </span>
-          <span className="gradient-text glow-text">Moto</span>
+          <span className="gradient-text glow-text">histonoby</span>
         </motion.h1>
 
         {/* Subtitle with typing effect style */}
