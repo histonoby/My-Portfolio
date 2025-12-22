@@ -4,15 +4,16 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
+import Image from "next/image";
 
 // プロジェクトデータ
 const projects = [
   {
     id: 1,
     title: "Markdown for Engineer",
-    description: "エンジニア向けのMarkdownエディタ・プレビューツール。コードを書きながら効率的にドキュメントを作成できます。",
+    description: "エンジニア向けのMarkdownエディタ・プレビューツール。開発ログを効率的に管理し、プロジェクトごとにドキュメントを整理できます。",
     tags: ["Next.js", "TypeScript", "Tailwind"],
-    image: null,
+    image: "/images/markdown-editor.png",
     liveUrl: "https://markdown-for-engineer-git-main-histonobys-projects.vercel.app/",
     githubUrl: null,
     isPlaceholder: false,
@@ -86,6 +87,13 @@ export default function Projects() {
                         </motion.div>
                         <span className="text-gray-600 text-sm font-mono">// Loading...</span>
                       </div>
+                    ) : project.image ? (
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
                     ) : (
                       <div className="absolute inset-0 bg-cyber-accent/10 group-hover:bg-cyber-accent/20 transition-colors" />
                     )}
