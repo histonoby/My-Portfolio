@@ -5,17 +5,17 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
 
-// プロジェクトデータ（後で実際のプロジェクトに更新）
+// プロジェクトデータ
 const projects = [
   {
     id: 1,
-    title: "Coming Soon",
-    description: "新しいプロジェクトを準備中です。お楽しみに！",
+    title: "Markdown for Engineer",
+    description: "エンジニア向けのMarkdownエディタ・プレビューツール。コードを書きながら効率的にドキュメントを作成できます。",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     image: null,
-    liveUrl: null,
+    liveUrl: "https://markdown-for-engineer-git-main-histonobys-projects.vercel.app/",
     githubUrl: null,
-    isPlaceholder: true,
+    isPlaceholder: false,
   },
   {
     id: 2,
