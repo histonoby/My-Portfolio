@@ -20,13 +20,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Coming Soon",
-    description: "新しいプロジェクトを準備中です。お楽しみに！",
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "StockScreenPro",
+    description: "国内株式スクリーニングアプリ。東証プライム全銘柄から投資スタイルに合った銘柄を効率的に見つけられます。PER、PBR、配当利回りなどの条件でフィルタリング可能。",
+    tags: ["Next.js", "TypeScript", "Tailwind"],
     image: null,
-    liveUrl: null,
+    liveUrl: "https://japanese-stock-screening-webver.vercel.app/",
     githubUrl: null,
-    isPlaceholder: true,
+    isPlaceholder: false,
   },
   {
     id: 3,
