@@ -23,7 +23,7 @@ const projects = [
     title: "StockScreenPro",
     description: "国内株式スクリーニングアプリ。東証プライム全銘柄から投資スタイルに合った銘柄を効率的に見つけられます。PER、PBR、配当利回りなどの条件でフィルタリング可能。",
     tags: ["Next.js", "TypeScript", "Tailwind"],
-    image: null,
+    image: "/images/japanese-stock-screening.png",
     liveUrl: "https://japanese-stock-screening-webver.vercel.app/",
     githubUrl: null,
     isPlaceholder: false,
