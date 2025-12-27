@@ -180,7 +180,7 @@ export default function QrHistoryPage() {
         .qr-page {
           position: relative;
           min-height: 100vh;
-          background: var(--bg-dark);
+          background: transparent;
           color: var(--text-main);
           font-family: "Noto Sans JP", sans-serif;
           overflow-x: hidden;
@@ -199,6 +199,7 @@ export default function QrHistoryPage() {
           text-align: center;
           padding: 120px 20px 80px;
           position: relative;
+          z-index: 10;
         }
 
         h1 {
@@ -238,6 +239,7 @@ export default function QrHistoryPage() {
           max-width: 1000px;
           margin: 0 auto;
           padding: 40px 20px 80px;
+          z-index: 10;
         }
 
         .qr-timeline::after {
@@ -381,6 +383,8 @@ export default function QrHistoryPage() {
           font-size: 0.9rem;
           font-family: "Share Tech Mono", monospace;
           border-top: 1px solid #111;
+          position: relative;
+          z-index: 10;
         }
 
         .modal-overlay {

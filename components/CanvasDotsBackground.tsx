@@ -98,7 +98,8 @@ export default function CanvasDotsBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 -z-10 w-full h-full bg-[#050505]"
+      className="fixed inset-0 w-full h-full"
+      style={{ zIndex: 0, background: "#050505" }}
       aria-hidden
     />
   );
