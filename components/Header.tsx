@@ -5,9 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
+  { name: "History", href: "/history" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -35,7 +34,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.a
-            href="#home"
+            href="#projects"
             className="font-display text-2xl font-bold gradient-text"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}

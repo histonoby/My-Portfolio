@@ -30,13 +30,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Coming Soon",
-    description: "新しいプロジェクトを準備中です。お楽しみに！",
-    tags: ["Python", "FastAPI", "PostgreSQL"],
+    title: "AI/ML History Timeline",
+    description: "機械学習の歴史を辿るタイムライン。1950年のチューリングテスト提唱から生成AIまで、重要な転換点を紹介します。",
+    tags: ["Next.js", "Canvas", "Animation"],
     image: null,
-    liveUrl: null,
+    liveUrl: "/history",
     githubUrl: null,
-    isPlaceholder: true,
+    isPlaceholder: false,
   },
 ];
 
