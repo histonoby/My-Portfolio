@@ -52,6 +52,16 @@ const historyCards = [
     githubUrl: null,
     isPlaceholder: false,
   },
+  {
+    id: 5,
+    title: "Semiconductor History",
+    description: "半導体の歴史を辿るタイムライン。1947年のトランジスタ誕生からオングストローム時代まで、シリコンが紡ぐ進化の記録。",
+    tags: ["Canvas", "Circuit", "Timeline"],
+    image: null,
+    liveUrl: "/history/semiconductor",
+    githubUrl: null,
+    isPlaceholder: false,
+  },
 ];
 
 export default function Projects() {
