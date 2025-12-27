@@ -62,6 +62,16 @@ const historyCards = [
     githubUrl: null,
     isPlaceholder: false,
   },
+  {
+    id: 6,
+    title: "Programming Language History",
+    description: "プログラミング言語の歴史を辿るタイムライン。1957年のFortranから現代のRust/Goまで、人間と機械の対話の進化を紹介。",
+    tags: ["Canvas", "Syntax", "Timeline"],
+    image: null,
+    liveUrl: "/history/programming",
+    githubUrl: null,
+    isPlaceholder: false,
+  },
 ];
 
 export default function Projects() {
