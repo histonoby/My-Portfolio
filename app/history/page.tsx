@@ -304,7 +304,7 @@ export default function HistoryPage() {
         .page {
           position: relative;
           min-height: 100vh;
-          background-color: var(--bg-dark);
+          background: transparent;
           color: var(--text-main);
           font-family: "Noto Sans JP", sans-serif;
           overflow-x: hidden;
@@ -316,13 +316,15 @@ export default function HistoryPage() {
           left: 0;
           width: 100%;
           height: 100%;
-          z-index: -1;
+          z-index: 0;
+          background: var(--bg-dark);
         }
 
         .page-header {
           text-align: center;
           padding: 120px 20px 60px;
           position: relative;
+          z-index: 10;
         }
 
         h1 {
@@ -363,6 +365,7 @@ export default function HistoryPage() {
           max-width: 1200px;
           margin: 0 auto;
           padding: 20px 20px 80px;
+          z-index: 10;
         }
 
         .timeline::after {
@@ -477,6 +480,8 @@ export default function HistoryPage() {
           padding: 60px 20px 80px;
           color: #555;
           font-size: 0.9rem;
+          position: relative;
+          z-index: 10;
         }
 
         .modal-overlay {
