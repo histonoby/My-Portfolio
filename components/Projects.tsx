@@ -83,6 +83,16 @@ const historyCards = [
     githubUrl: null,
     isPlaceholder: false,
   },
+  {
+    id: 7,
+    title: "Computing History",
+    description: "コンピューターの黎明期から未来の量子計算までを辿るタイムライン。レトロCRT風の演出で進化の軌跡を表示します。",
+    tags: ["Canvas", "Retro", "Timeline"],
+    image: "/images/history-computer.png",
+    liveUrl: "/history/computer",
+    githubUrl: null,
+    isPlaceholder: false,
+  },
 ];
 
 export default function Projects() {
