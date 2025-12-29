@@ -29,6 +29,16 @@ const appProjects = [
     githubUrl: null,
     isPlaceholder: false,
   },
+  {
+    id: 3,
+    title: "RapidReport | 声で終わる爆速日報",
+    description: "現場での音声メモをAIが日報フォーマットに即整形。写真自動整理とワンタップの完了スタンプで、5分かかっていた報告を30秒に短縮するデモ。",
+    tags: ["Next.js", "音声入力", "UI Prototype"],
+    image: "/images/rapid-report.png",
+    liveUrl: "https://rapid-report-six.vercel.app/",
+    githubUrl: null,
+    isPlaceholder: false,
+  },
 ];
 
 // テックヒストリーのカード
