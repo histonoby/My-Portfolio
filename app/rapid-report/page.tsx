@@ -13,6 +13,35 @@ import {
   StopCircle,
 } from "lucide-react";
 
+// SpeechRecognition型定義
+interface SpeechRecognitionResult {
+  readonly length: number;
+  item(index: number): SpeechRecognitionAlternative;
+  [index: number]: SpeechRecognitionAlternative;
+  readonly isFinal: boolean;
+}
+
+interface SpeechRecognitionAlternative {
+  readonly transcript: string;
+  readonly confidence: number;
+}
+
+interface SpeechRecognitionResultList {
+  readonly length: number;
+  item(index: number): SpeechRecognitionResult;
+  [index: number]: SpeechRecognitionResult;
+}
+
+interface SpeechRecognitionEvent extends Event {
+  readonly results: SpeechRecognitionResultList;
+  readonly resultIndex: number;
+}
+
+interface SpeechRecognitionErrorEvent extends Event {
+  readonly error: string;
+  readonly message: string;
+}
+
 type Attachment = {
   id: string;
   name: string;
@@ -190,13 +219,13 @@ export default function RapidReportPage() {
       setRecordingFeedback("録音中... 話し終えたら自動で停止します。");
       setIsRecording(true);
     };
-    recognition.onresult = (event) => {
+    recognition.onresult = (event: SpeechRecognitionEvent) => {
       const transcriptResult = Array.from(event.results)
-        .map((result) => result[0].transcript)
+        .map((result: SpeechRecognitionResult) => result[0].transcript)
         .join("。");
       setTranscript((prev) => `${prev ? `${prev}\n` : ""}${transcriptResult}。`);
     };
-    recognition.onerror = () => {
+    recognition.onerror = (_event: SpeechRecognitionErrorEvent) => {
       setRecordingFeedback("音声認識でエラーが発生しました。再度お試しください。");
       setIsRecording(false);
     };
