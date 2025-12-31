@@ -44,7 +44,7 @@ export default function Footer() {
             className="flex items-center gap-4"
           >
             <a
-              href="https://x.com/Z7RaKsNV7822798"
+              href="https://x.com/histonoby_dev"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-cyber-dark border border-gray-800 hover:border-cyber-accent/50 text-gray-400 hover:text-cyber-accent transition-all duration-300"

@@ -71,14 +71,14 @@ export default function Contact() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 {/* X (Twitter) Link */}
                 <a
-                  href="https://x.com/Z7RaKsNV7822798"
+                  href="https://x.com/histonoby_dev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-3 px-8 py-4 bg-cyber-dark border border-gray-700 rounded-xl hover:border-cyber-accent/50 transition-all duration-300 hover-lift w-full sm:w-auto justify-center"
                 >
                   <XIcon size={20} />
                   <span className="text-gray-300 group-hover:text-white transition-colors">
-                    @Z7RaKsNV7822798
+                    @histonoby_dev
                   </span>
                   <Send
                     size={16}
