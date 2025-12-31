@@ -39,6 +39,16 @@ const appProjects = [
     githubUrl: null,
     isPlaceholder: false,
   },
+  {
+    id: 4,
+    title: "Favorite Movie Board",
+    description: "お気に入りの映画や動画を一覧で共有できるボードアプリ。作品カードを並べて視覚的にコレクションを管理・紹介できます。",
+    tags: ["Next.js", "TypeScript", "Tailwind"],
+    image: "/images/favorite-videos.png",
+    liveUrl: "https://favorite-movie-board.vercel.app/",
+    githubUrl: null,
+    isPlaceholder: false,
+  },
 ];
 
 // テックヒストリーのカード
