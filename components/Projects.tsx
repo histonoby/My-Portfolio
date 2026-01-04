@@ -54,7 +54,7 @@ const appProjects = [
     title: "Mountain Finder",
     description: "居住都道府県とレベルから、近・中・遠の3距離で山をレコメンド。詳細ページで3D地形と時間割を確認できます。",
     tags: ["Next.js", "TypeScript", "3D"],
-    image: null,
+    image: "/images/mountain-finder.png",
     liveUrl: "https://mountain-finder.vercel.app/",
     githubUrl: null,
     isPlaceholder: false,
